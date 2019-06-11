@@ -16,7 +16,7 @@
 
 typedef juce::Image RenderedIcon;
 
-class FontAwesome {
+class FontAwesome : juce::DeletedAtShutdown {
 public:
     FontAwesome() {}
     ~FontAwesome() {
